@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    padding: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+.menulines{
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+}
+.menutab{
+    height: 30px;
+}
+.menutitle{
+    margin-top: -20px;
+    padding: 0 50px;
+    background-color: white;
+}
+.menu01{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.button01{
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+.buttonbut{
+    border: none;
+    border-radius: 12px;
+    background: #EFEFEF;
+    padding: 30px 500px 30px 14px;
+    font-size: 20px;
+}
+section{
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 300px 50px 300px;
+
+}
+.makechoice{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+      
+}
+.food01{
+    margin-right: 76px;
+    text-align: center;
+}
+.drinks01{
+    text-align: center;
+    margin-right: 76px;
+}
+.dessert01{
+    text-align: center;
+}
+.foodsettings:hover{
+    background-color: #EAE2B7;
+}
+.drinkssettings:hover{
+    background-color: #EAE2B7;
+}
+.desertsettings:hover{
+    background-color: #EAE2B7;
+}
+.foodsettings{
+      width: 200px;
+      background-color: #EFEFEF;
+      padding: 30px;
+      border-radius: 12px;
+  
+}
+.drinkssettings{
+      width: 200px;
+      background-color: #EFEFEF;
+      padding: 30px 30px 20px 30px;
+      border-radius: 12px;
+      text-align: center;
+  
+}
+.desertsettings{
+      width: 200px;
+      background-color: #EFEFEF;
+      padding: 30px;
+      border-radius: 12px;
+  
+}
+.foodprint{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.drinkprint{
+    color: #C4C4C4;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.desertprint{
+    color: #C4C4C4;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.burgertext{
+    padding: 50px 50px 10px 50px;
+    background-color: white;
+}
+.texttitleb{
+    margin-top: -50px;
+    color: #003049;
+    font-family: 'Inter', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+main{
+    background-color: white;
+    padding: 200px;
+}
+.burgers{
+   margin-top: -200px;
+   text-align: center;
+}
+.bigmac01{
+    margin: 16px auto;
+    width: 1000px;
+    background-color: #EFEFEF;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px #E5E5E5
+}
+.kfcdouble01{
+    margin: 16px auto;
+    width: 1000px;
+    background-color: #EFEFEF;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px #E5E5E5
+}
+.fishburger01{
+    margin: 16px auto;
+    width: 1000px;
+    background-color: #EFEFEF;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px #E5E5E5;
+}
+.bigmacinside{
+    width: 100px;
+    margin-right: 800px;
+}
+.kfcdoubleinside{
+    width: 120px;
+    margin-right: 800px;
+}
+.fishburgerinside{
+    width: 120px;
+    margin-right: 800px;
+}
+.bigprint01{
+    margin-top: -100px;
+    margin-right: 550px;
+    color: #003049;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 20px;
+}
+.kfcprint01{
+    margin-top: -100px;
+    margin-right: 510px;
+    color: #003049;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 20px;
+}
+.fishprint01{
+    margin-top: -100px;
+    margin-right: 510px;
+    color: #003049;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 20px;
+}
+.bigprint02{
+    color: #D62828;
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 560px;
+font-size: 18px;
+}
+.fishprint02{
+    color: #D62828;
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 560px;
+font-size: 18px;
+}
+.kfcprint02{
+    color: #D62828;
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 560px;
+font-size: 18px;
+}
