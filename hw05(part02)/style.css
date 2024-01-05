@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: wheat;
+}
+.wrapper{
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+.dia-block{
+    padding: 101px;
+    background-color: black;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.dia-image{
+    margin: 0 auto;
+}
+.flag{
+    padding: 30px;
+    border-radius: 6px;
+background: linear-gradient(180deg, #2137FC 0%, #2137FB 50.01%, #FFD84B 50.04%, #FFD84B 100%);
+width: 100px;
+margin: 0 auto;
+margin-top: 20px;
+}
+.speechify-square{
+    padding: 101px;
+    position: absolute;
+    background-color: #FFD84B;
+    margin-top: 420px;
+    margin-left: 450px;
+    z-index: 1;
+
+}
+.imgblueinside{
+   margin: -100px -300px -100px -100px;
+   width: 600px;
+
+}
+.classline1{
+   margin-top: -35px;
+}
+.speechify-circle{
+    position: absolute;
+    background-color: #C4C4C4;
+    margin-top: 840px;
+    margin-left: 930px;
+    padding-bottom: 101px;
+    margin-right: 50px;
+}
+.circle{
+    padding: 70px;
+    background-color: #FFD84B;
+    margin-top: -280px;
+    margin-bottom: 1px;
+    padding-bottom: 290px;
+    border-radius: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.imgblue02{
+    padding: 100px;
+    margin: 0 auto;
+}
+.classline2{
+    margin-top: -240px;
+    text-align: center;
+
+}
