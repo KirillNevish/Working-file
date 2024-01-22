@@ -7,8 +7,7 @@ body{
     background-image: url('../img/Rectanglemain.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
-    max-height: 100vh;
+    background-size: cover;
     background-position: center;    
 
 }
@@ -314,25 +313,25 @@ h3::before{
 .films{
     display: flex;
     justify-content: space-between;
-    max-height: 210px;
-    max-width: 100%;
+    
     /* background-color: deeppink; */
     margin-top: 21px;
     /* max-width: 989px; */
 }
 .film{
-    /* max-width: 151px; */
+
     max-width: 15.2%;
-    /* max-height: 210px; */
-    max-height: 100%;
+
 
 }
 
-/* .warning{
+.warning{
     display: flex;
     max-width: 174px;
     max-height: 66px;
-    background-color: indianred;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
 }
 .firstpartw{
     display: flex;
@@ -356,10 +355,27 @@ h6{
     font-style: normal;
     font-weight: 500;
     line-height: 141.523%; /* 33.965px */
+}
 
     @media(max-width:788px){
         .datetext{
             font-size: 15px;
+        }
+        .warning{
+            max-height: 22px;
+            max-width: 86px;
+            bottom: 250px;
+        }
+        h6{
+            font-size: 16px;
+            margin-left: 0px;
+        }
+        .firstpartw{
+            justify-content: flex-start;
+            min-width: 30px;
+        }
+        .secondpartw{
+            min-width: 10px;
         }
     }
     @media(max-width:740px){
@@ -396,9 +412,7 @@ h6{
         .strangerthingsmt{
             margin-left: 0px;
         }
-        .films{
-            /* margin-left: 10px;/ */
-        }
+
         .netflixavatar{
             gap: 5px;
             justify-content: flex-start;
