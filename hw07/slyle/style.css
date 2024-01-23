@@ -358,6 +358,15 @@ h6{
 }
 
     @media(max-width:788px){
+        .drama01{
+            font-size: 19px;
+        }
+        .thriller01{
+            font-size: 19px;
+        }
+        .supernatural01{
+            font-size: 19px;
+        }
         .datetext{
             font-size: 15px;
         }
