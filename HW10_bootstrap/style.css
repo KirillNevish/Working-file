@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+#navbarSupportedContent{
+    margin-left: 20vw;
+}
+#maintitle{
+    margin-left: 10vw;
+}
+
+.textgrand{
+    background-image: url("coffe01.png");
+    background-position: center;
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+.textop{
+    color: #FFF;
+    text-align: center;
+    padding-top: 8%;
+/* ドロップシャドウ */
+    font-size: 110px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+    font-family: "font-family: 'Poppins', sans-serif;";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#drinkbg{
+    background: rgba(255, 255, 255, 0.80);
+}
+#circle01{
+    
+    border: 9px solid #81613B;
+}
+#drinktext{
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#buttong{
+    min-width: 160px;
+}
+.customtextg{
+    display: flex;
+    color: #FFF;
+   text-align: center;
+   font-family: "Yu Gothic";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+#downimg{
+    background-image: url("cafe01.png");
+    background-position: center;
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+.textbottom{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+    padding-top: 5%;
+    color: #FFF;
+    font-family: "Yu Gothic";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+.textbottom2{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+    color: #FFF;
+    font-family: "Yu Gothic";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+#informationb{
+    margin-top: 5px;
+    display: flex;
+    align-self: center;
+    width: 25%;
+    color: #FFF;
+    /* ドロップシャドウ */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+    font-family: "Yu Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+}
+.informationend{
+    color: #000;
+font-family: "Yu Gothic";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
