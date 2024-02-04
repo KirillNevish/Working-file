@@ -1,14 +1,7 @@
 *{
     box-sizing: border-box;
 }
-#small-b{
-    display: flex;
-    gap: 20px;
-    margin-left: 18vw;
-}
-#maintitle{
-    margin-left: 10vw;
-}
+
 
 .textgrand{
     background-image: url("coffe01.png");
